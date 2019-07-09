@@ -108,21 +108,21 @@ body {
   display: none; }
 
 .header {
-  height: 100vh;
+  height: calc(100vh - 40px);
   padding: 20px; }
 
 .main__section {
-  padding: 20px; }
+  padding: 50px 20px; }
 
 .introduction__section {
   background-color: rgba(194, 231, 218, 0.61); }
 
 .testimonial__section {
-  height: 495px;
+  height: 395px;
   background-color: #6290c3; }
 
 .footer {
-  padding: 20px;
+  padding: 50px 20px;
   background-color: black; }
 
 /*# sourceMappingURL=style.css.map */

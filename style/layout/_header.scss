@@ -1,4 +1,4 @@
 .header {
-  height: 100vh;
-  padding: $content-padding;
+  height: calc(100vh - 40px);
+  padding: 20px;
 }
