@@ -4,3 +4,73 @@ body {
   font-size: 18px;
   color: $black-color;
 }
+
+.title__top {
+  font-family: ('Catamaran', Helvetica, sans-serif);
+  font-weight: 700;
+  font-size: 14px;
+  color: $darkgray-color;
+}
+
+.header__title {
+  font-family: ('Playfair Display', serif);
+  font-weight: 900;
+  font-size: 30px;
+  color: $black-color;
+}
+
+.section__top {
+  font-family: ('Catamaran', Helvetica, sans-serif);
+  font-weight: 400;
+  font-size: 14px;
+  color: $black-color;
+  text-transform: uppercase;
+}
+
+.section__title {
+  font-family: ('Playfair Display', serif);
+  font-weight: 700;
+  font-size: 26px;
+  color: $black-color;
+}
+
+.expect__title {
+  font-family: ('Playfair Display', serif);
+  font-weight: 700;
+  font-size: 24px;
+  color: $black-color;
+}
+
+.logo {
+  font-family: ('Playfair Display', serif);
+  font-style: italic;
+  font-weight: 700;
+}
+
+.nav_logo {
+  font-weight: 900;
+}
+
+.footer__logo {
+  font-size: 55px;
+  font-weight: 900;
+  color: $white-color;
+}
+
+.quote {
+  font-family: ('Playfair Display', serif);
+  font-weight: 700;
+  font-size: 24px;
+  color: $white-color;
+}
+
+.quote-name {
+  font-family: ('Catamaran', Helvetica, sans-serif);
+  font-weight: 400;
+  font-size: 14px;
+  color: $white-color;
+}
+
+.footer {
+  color: $white-color;
+}
