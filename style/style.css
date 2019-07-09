@@ -103,6 +103,12 @@ body {
 .nav__menulist {
   display: none; }
 
+.header {
+  padding: 20px; }
+
+.main__section {
+  padding: 20px; }
+
 .testimonial__section {
   background-color: #6290c3; }
 
