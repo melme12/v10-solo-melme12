@@ -160,8 +160,9 @@ body {
 .location__section {
   height: calc(100vh - 100px);
   background-image: url("../assets/img/005.jpg");
+  background-position: right top;
   background-repeat: no-repeat;
-  background-size: 100%; }
+  background-size: calc(100vh - 100px); }
 
 .testimonial__section {
   height: 395px;
