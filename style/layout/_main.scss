@@ -24,3 +24,10 @@
   height: 395px;
   background-color: $blue-color;
 }
+
+.sponsors__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

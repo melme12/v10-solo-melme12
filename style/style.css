@@ -120,6 +120,16 @@ body {
   border: 2px solid #f71665;
   cursor: pointer; }
 
+.svg__logo {
+  margin: 5px;
+  fill-rule: nonzero; }
+  .svg__logo path {
+    stroke: #d1d1d1;
+    fill: #d1d1d1; }
+  .svg__logo:hover path {
+    stroke: #f71665;
+    fill: #f71665; }
+
 .header__nav {
   display: flex;
   flex-direction: row;
@@ -167,6 +177,12 @@ body {
 .testimonial__section {
   height: 395px;
   background-color: #6290c3; }
+
+.sponsors__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 .footer {
   padding: 50px 20px;

@@ -68,3 +68,21 @@
     
   }
 }
+
+.svg__logo {
+  //border: 2px solid blue;
+  margin: 5px;
+  fill-rule: nonzero;
+  
+  path {
+    stroke: $lightgray-color;
+    fill: $lightgray-color;
+  }
+
+  &:hover {
+    path {
+      stroke: $pink-color;
+      fill: $pink-color;
+    }
+  }
+}
