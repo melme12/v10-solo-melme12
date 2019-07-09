@@ -69,6 +69,11 @@ body {
 .footer {
   color: white; }
 
+.text__link {
+  color: #f71665; }
+  .text__link:hover {
+    color: rgba(247, 22, 101, 0.8); }
+
 .button__link {
   height: 50px;
   min-width: 155px;
