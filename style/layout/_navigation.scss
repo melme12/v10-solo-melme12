@@ -1,3 +1,10 @@
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
 .nav__menulist {
   display: none;
 }
