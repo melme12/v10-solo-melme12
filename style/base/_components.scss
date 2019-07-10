@@ -42,14 +42,22 @@
 
 //Newsletter Form
 
+.newsletter__form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
 .input__email {
   width: 156px;
   height: 55px;
   padding: 0 10px;
+  margin: 2px 0;
   font-size: 14px;
   color: $darkgray-color;
   background-color: $white-color;
-  border: 2px solid $black-color;
+  border: 2px solid $white-color;
 
   &:focus {
     border: 2px solid $pink-color;
@@ -57,8 +65,9 @@
 }
 
 .input__submit {
-  height: 55px;
+  height: 59px;
   padding: 10px 20px;
+  margin: 2px 0;
   background-color: $pink-color;
   color: $white-color;
   border: 2px solid $pink-color;
@@ -99,4 +108,17 @@
 
   .expect__box--margin-bottom {
     margin-bottom: 50px;
+  }
+
+  //SOCIAL MEDIA AND CONTACT ICONS
+
+  .social__icon {
+    //border: 2px solid blue;
+    background-color: $pink-color;
+    padding: 10px;
+    margin-right: 10px;
+
+    path {
+      fill: $white-color;
+    }
   }
