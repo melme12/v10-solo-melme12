@@ -36,6 +36,10 @@
   background-color: $white-color;
 }
 
+  .p--margin {
+    margin-top: 20px;
+  }
+
 //Newsletter Form
 
 .input__email {
@@ -86,3 +90,13 @@
     }
   }
 }
+
+//IMAGES
+
+.expect-image {
+  display: block;
+}
+
+  .expect__box--margin-bottom {
+    margin-bottom: 50px;
+  }

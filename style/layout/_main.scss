@@ -6,6 +6,16 @@
   background-color: $mint-color;
 }
 
+.expect__box {
+  width: 250px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
 .location__div {
   background-color: white;
   padding: 30px;
