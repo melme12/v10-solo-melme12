@@ -110,15 +110,35 @@
     margin-bottom: 50px;
   }
 
-  //SOCIAL MEDIA AND CONTACT ICONS
+//SOCIAL MEDIA AND CONTACT ICONS
 
-  .social__icon {
-    //border: 2px solid blue;
-    background-color: $pink-color;
-    padding: 10px;
-    margin-right: 10px;
+.social__icon {
+  background-color: $pink-color;
+  padding: 10px;
+  margin-right: 10px;
+
+  path {
+    fill: $white-color;
+  }
+
+  &:hover, &:focus {
+    background-color: $black-color;
+
+    path {
+      fill: $pink-color;
+    }
+  }
+
+  &:active {
+    background-color: $black-color;
 
     path {
       fill: $white-color;
     }
   }
+}
+
+.social-menu__link {
+  color: transparent;
+  text-decoration: none;
+}

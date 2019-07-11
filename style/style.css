@@ -160,6 +160,18 @@ body {
   margin-right: 10px; }
   .social__icon path {
     fill: white; }
+  .social__icon:hover, .social__icon:focus {
+    background-color: black; }
+    .social__icon:hover path, .social__icon:focus path {
+      fill: #f71665; }
+  .social__icon:active {
+    background-color: black; }
+    .social__icon:active path {
+      fill: white; }
+
+.social-menu__link {
+  color: transparent;
+  text-decoration: none; }
 
 .header__nav {
   display: flex;
