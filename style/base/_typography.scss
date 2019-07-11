@@ -33,7 +33,7 @@ body {
 .section__title {
   font-family: $title-font;
   font-weight: 700;
-  font-size: 26px;
+  font-size: $large-font-size;
   color: $black-color;
   margin: 0 0 30px 0;
 }
@@ -41,14 +41,14 @@ body {
 .expect__title {
   font-family: $title-font;
   font-weight: 700;
-  font-size: 24px;
+  font-size: $medium-font-size;
   color: $black-color;
   text-align: center;
 }
 
 .newsletter__title {
   font-weight: 400;
-  font-size: 24px;
+  font-size: $medium-font-size;
 }
 
 .logo {
@@ -57,7 +57,7 @@ body {
 }
 
 .logo--title {
-  font-size: 26px;
+  font-size: $large-font-size;
 }
 
 .logo--big--black {
@@ -81,14 +81,14 @@ body {
 .quote {
   font-family: $title-font;
   font-weight: 700;
-  font-size: 24px;
+  font-size: $medium-font-size;
   color: $white-color;
 }
 
 .quote-name {
-  font-family: ('Catamaran', Helvetica, sans-serif);
+  font-family: $main-font;
   font-weight: 400;
-  font-size: 14px;
+  font-size: $small-font-size;
   color: $white-color;
 }
 
