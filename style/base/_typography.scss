@@ -51,6 +51,8 @@ body {
   font-size: $medium-font-size;
 }
 
+//LOGO
+
 .logo {
   @include logo-list;
   font-size: $base-font-size;
@@ -78,6 +80,8 @@ body {
   }
 }
 
+//QUOTE
+
 .quote {
   font-family: $title-font;
   font-weight: 700;
@@ -96,3 +100,55 @@ body {
   color: $white-color;
 }
 
+//LINKS
+
+.text__link {
+  color: $pink-color;
+
+  &:hover {
+    color: $lighpink-color;
+  }
+}
+
+//BUTTONS
+
+.button__link {
+  text-align: center;
+  font-size: $base-font-size;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 0;
+}
+
+.button--action {
+  color: $white-color;
+}
+
+.button--secondary {
+  color: $pink-color;
+}
+
+  .p--margin {
+    margin-top: 20px;
+  }
+
+//INPUT
+
+.input__email {
+  font-size: $small-font-size;
+  color: $darkgray-color;
+}
+
+.input__submit {
+  font-family: $main-font;
+  font-size: $base-font-size;
+  color: $white-color;
+
+  &:hover {
+    
+  }
+
+  &:focus {
+    
+  }
+}

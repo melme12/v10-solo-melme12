@@ -90,26 +90,44 @@ body {
     color: rgba(247, 22, 101, 0.8); }
 
 .button__link {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 0; }
+
+.button--action {
+  color: white; }
+
+.button--secondary {
+  color: #f71665; }
+
+.p--margin {
+  margin-top: 20px; }
+
+.input__email {
+  font-size: 14px;
+  color: #686868; }
+
+.input__submit {
+  font-family: "Catamaran", Helvetica, sans-serif;
+  font-size: 18px;
+  color: white; }
+
+.button__link {
   display: flex;
   align-items: center;
-  text-align: center;
   justify-content: center;
   height: 30px;
   width: 110px;
   padding: 10px 20px;
   margin: 10px 0;
-  font-size: 18px;
-  font-weight: 400;
-  text-decoration: none;
-  line-height: 0;
   border: 2px solid #f71665; }
 
 .button--action {
-  color: white;
   background-color: #f71665; }
 
 .button--secondary {
-  color: #f71665;
   background-color: white; }
 
 .p--margin {
@@ -126,8 +144,6 @@ body {
   height: 55px;
   padding: 0 10px;
   margin: 2px 0;
-  font-size: 14px;
-  color: #686868;
   background-color: white;
   border: 2px solid white; }
   .input__email:focus {
@@ -138,7 +154,6 @@ body {
   padding: 10px 20px;
   margin: 2px 0;
   background-color: #f71665;
-  color: white;
   border: 2px solid #f71665;
   cursor: pointer; }
 
@@ -177,6 +192,10 @@ body {
   color: transparent;
   text-decoration: none; }
 
+body {
+  margin: 0;
+  padding: 0; }
+
 .header__nav {
   display: flex;
   flex-direction: row;
@@ -187,8 +206,8 @@ body {
   display: none; }
 
 .header {
-  height: calc(100vh - 40px);
-  padding: 20px; }
+  min-height: calc(100vh - 40px);
+  padding: 20px 10vw; }
 
 .header__box {
   display: flex;
@@ -203,8 +222,14 @@ body {
   flex-direction: column;
   align-items: center; }
 
+@media screen and (min-width: 480px) {
+  .header {
+    padding: 20px 15vw; } }
+@media screen and (min-width: 768px) {
+  .main__section {
+    padding: 20px 20vw; } }
 .main__section {
-  padding: 50px 20px; }
+  padding: 50px 10vw; }
 
 .introduction__section {
   background-color: rgba(194, 231, 218, 0.61); }
@@ -243,8 +268,14 @@ body {
   justify-content: center;
   align-items: center; }
 
+@media screen and (min-width: 480px) {
+  .main__section {
+    padding: 50px 15vw; } }
+@media screen and (min-width: 768px) {
+  .main__section {
+    padding: 50px 20vw; } }
 .footer {
-  padding: 50px 20px;
+  padding: 50px 10vw;
   background-color: black; }
 
 .footer__newsletter {

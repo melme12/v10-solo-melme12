@@ -23,13 +23,16 @@ $big-logo-size: 55px;
 
 /* BREAKPOINTS */
 
-$tablet-portrait-width: 768px;
-$tablet-landscape-width: 1024px;
-$laptop-width: 1280px;
+$phone: 480px;
+$tablet-portrait: 768px;
+$tablet-landscape: 1024px;
+$desktop-small: 1280px;
+//$desktop-medium: 1690px;
+$desktop-big: 1920px;
 
 // LAYOUT
 
-$content-padding: 50px 20px;
+$content-padding: 50px 10vw;
 
 // OTHER
 
@@ -37,10 +40,3 @@ $mobile-screen-padding: 20px;
 
 $location-box-shadow: 0 0 10px rgba(45, 45, 45, 0.4); // #2D2D2D
 
-
-
-// @media all and (max-width: 1690px) { ...}
-// @media all and (max-width: 1280px) { ...}
-// @media all and (max-width: 980px) { ... }
-// @media all and (max-width: 736px) { ... }
-// @media all and (max-width: 480px) { ... }

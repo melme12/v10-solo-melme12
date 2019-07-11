@@ -49,3 +49,23 @@
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (min-width: $phone) {
+   .main__section {
+     padding: 50px 15vw;
+   }
+ }
+
+@media screen and (min-width: $tablet-portrait) {
+  .main__section {
+    padding: 50px 20vw;
+  }
+}
+
+// @media screen and (min-width: $desktop-big) {
+//   .main__section {
+//     margin: 0 auto;
+//     padding: 50px 150px;
+//     max-width: 1620px;
+//   }
+// }
