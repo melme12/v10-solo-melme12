@@ -1,5 +1,5 @@
 body {
-  font-family: ('Catamaran', Helvetica, sans-serif);
+  font-family: $main-font;
   font-weight: 400;
   font-size: 18px;
   color: $black-color;
@@ -7,9 +7,9 @@ body {
 }
 
 .title__top {
-  font-family: ('Catamaran', Helvetica, sans-serif);
+  font-family: $main-font;
   font-weight: 700;
-  font-size: 14px;
+  font-size: $small-font-size;
   color: $darkgray-color;
 }
 
@@ -22,9 +22,9 @@ body {
 }
 
 .section__top {
-  font-family: ('Catamaran', Helvetica, sans-serif);
+  font-family: $main-font;
   font-weight: 400;
-  font-size: 14px;
+  font-size: $small-font-size;
   color: $black-color;
   text-transform: uppercase;
   margin-bottom: 3px;
