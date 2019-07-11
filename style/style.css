@@ -1,3 +1,5 @@
+/* COLORS */
+/* TYPOGRAPHY */
 @import url("https://fonts.googleapis.com/css?family=Catamaran:400,500|Playfair+Display:700,900,900i&display=swap");
 body {
   font-family: "Catamaran", Helvetica, sans-serif;
@@ -48,20 +50,21 @@ body {
 .logo {
   font-family: "Playfair Display", serif;
   font-style: italic;
-  font-weight: 700; }
-
-.nav__logo {
   font-weight: 900;
+  font-size: 18px; }
+
+.logo--title {
+  font-size: 26px; }
+
+.logo--big--black {
   font-size: 55px; }
-  .nav__logo a {
+  .logo--big--black a {
     color: black;
     text-decoration: none; }
 
-.footer__logo {
-  font-size: 55px;
-  font-weight: 900;
-  color: white; }
-  .footer__logo a {
+.logo--big--white {
+  font-size: 55px; }
+  .logo--big--white a {
     color: white;
     text-decoration: none; }
 

@@ -14,7 +14,7 @@ body {
 }
 
 .header__title {
-  font-family: ('Playfair Display', serif);
+  font-family: $title-font;
   font-weight: 900;
   font-size: 30px;
   color: $black-color;
@@ -31,7 +31,7 @@ body {
 }
 
 .section__title {
-  font-family: ('Playfair Display', serif);
+  font-family: $title-font;
   font-weight: 700;
   font-size: 26px;
   color: $black-color;
@@ -39,7 +39,7 @@ body {
 }
 
 .expect__title {
-  font-family: ('Playfair Display', serif);
+  font-family: $title-font;
   font-weight: 700;
   font-size: 24px;
   color: $black-color;
@@ -52,14 +52,16 @@ body {
 }
 
 .logo {
-  font-family: ('Playfair Display', serif);
-  font-style: italic;
-  font-weight: 700;
+  @include logo-list;
+  font-size: $base-font-size;
 }
 
-.nav__logo {
-  font-weight: 900;
-  font-size: 55px;
+.logo--title {
+  font-size: 26px;
+}
+
+.logo--big--black {
+  font-size: $big-logo-size;
 
   a {
     color: $black-color;
@@ -67,10 +69,8 @@ body {
   }
 }
 
-.footer__logo {
-  font-size: 55px;
-  font-weight: 900;
-  color: $white-color;
+.logo--big--white {
+  font-size: $big-logo-size;
 
   a {
     color: $white-color;
@@ -79,7 +79,7 @@ body {
 }
 
 .quote {
-  font-family: ('Playfair Display', serif);
+  font-family: $title-font;
   font-weight: 700;
   font-size: 24px;
   color: $white-color;
