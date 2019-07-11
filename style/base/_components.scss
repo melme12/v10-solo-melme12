@@ -9,6 +9,14 @@
   padding: 10px 20px;
   margin: 10px 0;
   border: 2px solid $pink-color;
+
+  &:hover {
+    transform: $scale-bigger;
+  }
+
+  &:active {
+    transform: $scale-smaller;
+  }
 }
 
 .button--action {
@@ -53,12 +61,13 @@
   border: 2px solid $pink-color;
   cursor: pointer;
 
-  &:hover {
-    
+  &:hover,
+  &:focus {
+    transform: $scale-bigger;
   }
 
-  &:focus {
-    
+  &:active {
+    transform: $scale-smaller;
   }
 }
 
@@ -71,7 +80,8 @@
     fill: $lightgray-color;
   }
 
-  &:hover {
+  &:hover,
+  &:focus {
     path {
       stroke: $pink-color;
       fill: $pink-color;

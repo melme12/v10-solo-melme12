@@ -62,10 +62,11 @@
   }
 }
 
-// @media screen and (min-width: $desktop-big) {
-//   .main__section {
-//     margin: 0 auto;
-//     padding: 50px 150px;
-//     max-width: 1620px;
-//   }
-// }
+@media screen and (min-width: $desktop-big) {
+  .main__section {
+    margin: 0 auto;
+    padding: 100px 150px;
+    //maybe apply max-width to content so the bg-color won't break
+    max-width: 1620px;
+  }
+}

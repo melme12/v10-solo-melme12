@@ -6,7 +6,7 @@
 .header__box {
   display: flex;
   flex-direction: column;
-  wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .header__titlebox {

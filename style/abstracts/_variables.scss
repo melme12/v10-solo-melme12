@@ -1,7 +1,7 @@
 /* COLORS */
 
 $pink-color: rgba(247, 22, 101, 1); //#F71665
-$lighpink-color: rgba(247, 22, 101, 0.8);
+$lightpink-color: rgba(247, 22, 101, 0.73);
 $mint-color: rgba(194, 231, 218, 0.61); //#C2E7DA
 $blue-color: rgba(98, 144, 195, 1); //#6290C3
 $white-color: rgba(255, 255, 255, 1); //#FFFFFF
@@ -29,6 +29,11 @@ $tablet-landscape: 1024px;
 $desktop-small: 1280px;
 //$desktop-medium: 1690px;
 $desktop-big: 1920px;
+
+/* EFFECTS */
+
+$scale-bigger: scale(1.05);
+$scale-smaller: scale(0.95);
 
 // LAYOUT
 
