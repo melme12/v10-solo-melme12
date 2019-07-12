@@ -106,7 +106,13 @@ body {
   color: $pink-color;
 
   &:hover {
-    color: $lightpink-color;
+    color: $darkpink-color;
+  }
+}
+
+.text__link--footer {
+  &:hover {
+    color: $white-color;
   }
 }
 
