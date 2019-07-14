@@ -51,18 +51,21 @@
 
 
 .sponsors__box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display:grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-flow: dense;
+  justify-items: center;
 }
 
-.sponsors__box--grid {
-  display: grid;
-  
-}
+// .sponsors__box--flex {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: row;
+//   flex-wrap: wrap;
+// }
 
 @media screen and (min-width: $phone) {
    .main__section {
