@@ -2,9 +2,17 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 }
 
 .nav__menulist {
   display: none;
+}
+
+//HAMBURGER MENU
+
+.hamburger__animation {
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
 }
