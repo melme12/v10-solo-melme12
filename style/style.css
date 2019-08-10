@@ -304,9 +304,16 @@ body {
     max-width: 1620px; } }
 .footer {
   padding: 50px 10vw;
-  background-color: black; }
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start; }
 
 .footer__newsletter {
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  width: 400px; }
 
 /*# sourceMappingURL=style.css.map */
