@@ -296,7 +296,14 @@ body {
     padding: 50px 15vw; } }
 @media screen and (min-width: 768px) {
   .main__section {
-    padding: 50px 20vw; } }
+    padding: 50px 20vw; }
+
+  .left__side {
+    width: 40vw;
+    padding-right: 110px; } }
+@media screen and (min-width: 1690px) {
+  .left__side {
+    padding-right: 110px; } }
 @media screen and (min-width: 1920px) {
   .main__section {
     margin: 0 auto;
@@ -313,7 +320,6 @@ body {
   align-content: flex-start; }
 
 .footer__newsletter {
-  padding-bottom: 50px;
-  width: 400px; }
+  padding-bottom: 50px; }
 
 /*# sourceMappingURL=style.css.map */

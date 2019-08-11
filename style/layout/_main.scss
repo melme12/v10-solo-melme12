@@ -77,6 +77,22 @@
   .main__section {
     padding: 50px 20vw;
   }
+
+  .left__side {
+    width: 40vw;
+    padding-right: 110px;
+  }
+}
+
+@media screen and (min-width: $tablet-landscape) {
+  
+}
+
+@media screen and (min-width: $desktop-medium) {
+  .left__side {
+   // width: 590px;
+    padding-right: 110px;
+  }
 }
 
 @media screen and (min-width: $desktop-big) {
@@ -86,4 +102,6 @@
     //maybe apply max-width to content so the bg-color won't break
     max-width: 1620px;
   }
+
+  
 }
