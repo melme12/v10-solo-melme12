@@ -182,9 +182,6 @@ body {
 .expect-image {
   display: block; }
 
-.expect__box--margin-bottom {
-  margin-bottom: 50px; }
-
 .social__icon {
   background-color: #f71665;
   padding: 10px;
@@ -252,11 +249,16 @@ body {
   background-color: rgba(194, 231, 218, 0.61); }
 
 .expect__box {
-  width: 250px;
   margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center; }
+
+.expect__box--margin {
+  margin-bottom: 50px; }
+
+.expect__box--flex {
+  width: 250px; }
 
 .location__section {
   display: flex;
@@ -279,7 +281,8 @@ body {
   background-color: #6290c3; }
 
 .quote__box {
-  margin: 50px 0; }
+  margin: 50px 0;
+  width: 60vw; }
 
 .impressions__grid {
   text-align: center; }
@@ -296,11 +299,23 @@ body {
     padding: 50px 15vw; } }
 @media screen and (min-width: 768px) {
   .main__section {
-    padding: 50px 20vw; }
+    padding: 50px 9vw; }
 
   .left__side {
     width: 40vw;
-    padding-right: 110px; } }
+    padding-right: 110px; }
+
+  .expect__box--margin {
+    margin-bottom: 50px;
+    margin-right: 40px; }
+
+  .testimonial__section {
+    display: flex;
+    justify-content: center; } }
+@media screen and (min-width: 1024px) {
+  .expect__box {
+    flex-direction: row;
+    justify-content: space-between; } }
 @media screen and (min-width: 1690px) {
   .left__side {
     padding-right: 110px; } }
