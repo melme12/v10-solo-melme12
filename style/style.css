@@ -219,6 +219,20 @@ body {
   font-weight: 700;
   font-size: 25px; }
 
+@media screen and (min-width: 1024px) {
+  .hamburger__menu {
+    display: none; }
+
+  .nav__menulist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row; }
+
+  .nav__item {
+    margin: 0;
+    padding: 50px; } }
 .header {
   min-height: calc(100vh - 40px);
   padding: 20px 10vw; }
