@@ -116,6 +116,17 @@ body {
   }
 }
 
+.nav__link {
+  text-decoration: none;
+  color: $black-color;
+  font-size: $medium-font-size;
+  font-weight: 500;
+
+  &:hover {
+    color: $pink-color;
+  }
+}
+
 //BUTTONS
 
 .button__link {
