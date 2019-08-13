@@ -128,11 +128,14 @@
   .content__box--right-side {
     width: 44vw;
   }
+
+  .location__div {
+    max-width: 400px;
+  }
 }
 
 @media screen and (min-width: $desktop-medium) {
   .left__side {
-   // width: 590px;
     padding-right: 110px;
   }
 

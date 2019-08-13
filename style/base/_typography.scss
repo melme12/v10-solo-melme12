@@ -119,7 +119,6 @@ body {
 .nav__link {
   text-decoration: none;
   color: $black-color;
-  //font-size: $medium-font-size;
   font-weight: 500;
 
   &:hover {
@@ -172,17 +171,15 @@ body {
 
 @media screen and (min-width: $tablet-portrait) {
   .header__title {
-    font-size: 3.7vw;
+    font-size: 3.5vw;
   }
 
-  
-  
   .section__title {
-    font-size: 3.4vw;
+    font-size: 3vw;
   }
 
   .logo--title {
-    font-size: 3.4vw;
+    font-size: 3vw;
 }
 }
 
