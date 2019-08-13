@@ -1,6 +1,5 @@
 // HAMBURGER MENU
 
-
 .hamburger__menu {
   display: flex;
   align-items: center;
@@ -8,8 +7,6 @@
   z-index: 3;
   cursor: pointer;
 }
-
-
 
 // CREDITS: Hamburger Menu Animation by https://www.w3schools.com/howto/howto_css_menu_icon.asp
 .hamburger__animation {
@@ -71,9 +68,9 @@
   background-color: $white-color;
 }
 
-  .p--margin {
-    margin-top: 20px;
-  }
+.p--margin {
+  margin-top: 20px;
+}
 
 //Newsletter Form
 
@@ -139,8 +136,6 @@
   display: block;
 }
 
-  
-
 //SOCIAL MEDIA AND CONTACT ICONS
 
 .social__icon {
@@ -187,4 +182,3 @@
     width: 165px;
   }
 }
-

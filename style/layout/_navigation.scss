@@ -8,7 +8,6 @@
 //HAMBURGER MENU
 
 .hide__nav {
-  //display: none;
   visibility: hidden;
 }
 
@@ -33,7 +32,6 @@
 .nav__link {
   display: inline-block;
   height: 50px;
-  
   top: 200px;
 }
 
@@ -46,11 +44,9 @@
 @media screen and (min-width: $tablet-landscape) {
   .header__nav {
     padding: 20px 7.8vw;
-    //align-items: flex-start;
   }
 
   .hide__nav {
-    //display: none;
     visibility: visible;
   }
   
@@ -78,14 +74,11 @@
   .nav__item {
     margin: 0;
     padding: 0 0 0 70px;
-    
   }
   
   .nav__link {
     display: inline;
     height: auto;
-    
     top: auto;
   }
-
 }

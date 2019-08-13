@@ -144,9 +144,9 @@ body {
   color: $pink-color;
 }
 
-  .p--margin {
-    margin-top: 20px;
-  }
+.p--margin {
+  margin-top: 20px;
+}
 
 //INPUT
 
@@ -159,14 +159,6 @@ body {
   font-family: $main-font;
   font-size: $base-font-size;
   color: $white-color;
-
-  &:hover {
-    
-  }
-
-  &:focus {
-    
-  }
 }
 
 @media screen and (min-width: $tablet-portrait) {
@@ -180,7 +172,7 @@ body {
 
   .logo--title {
     font-size: 3vw;
-}
+  }
 }
 
 @media screen and (min-width: $tablet-landscape) {
