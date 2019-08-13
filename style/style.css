@@ -227,6 +227,9 @@ body {
   font-size: 25px; }
 
 @media screen and (min-width: 1024px) {
+  .header__nav {
+    padding: 20px 7.8vw; }
+
   .hamburger__menu {
     display: none; }
 
@@ -244,6 +247,9 @@ body {
 .header {
   min-height: calc(100vh - 40px);
   padding: 20px 10vw; }
+
+.header-image__box {
+  display: none; }
 
 .header__box {
   display: flex;
@@ -264,6 +270,23 @@ body {
 @media screen and (min-width: 768px) {
   .main__section {
     padding: 20px 20vw; } }
+@media screen and (min-width: 1024px) {
+  .header {
+    padding: 20px 0; }
+
+  .header__box {
+    flex-direction: row;
+    justify-content: space-between; }
+
+  .header-image__box {
+    display: block;
+    left: 0; }
+    .header-image__box img {
+      width: 38.55vw;
+      margin-top: 30px; }
+
+  .header__right-side {
+    width: calc(48vw + 150px); } }
 .main__section {
   padding: 50px 10vw; }
 

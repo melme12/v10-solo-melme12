@@ -3,6 +3,10 @@
   padding: 20px 10vw;
 }
 
+.header-image__box {
+  display: none;
+}
+
 .header__box {
   display: flex;
   flex-direction: column;
@@ -31,9 +35,27 @@
   }
 }
 
-// @media screen and (min-width: $desktop-big) {
-//   .main__section {
-//     padding: 20px 150px;
-//     max-width: 1920px;
-//   }
-// }
+@media screen and (min-width: $tablet-landscape) {
+  .header {
+    padding: 20px 0;
+  }
+
+  .header__box {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .header-image__box {
+    display: block;
+    left: 0;
+
+    img {
+      width: 38.55vw;
+      margin-top: 30px;
+    }
+  }
+
+  .header__right-side {
+    width: calc(48vw + 150px);
+  }
+}
