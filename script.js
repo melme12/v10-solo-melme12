@@ -3,12 +3,8 @@ function hamburgerToX(x) {
   x.classList.toggle("change");
 }
 
- function showMenu() {
+//Show mobile menu
+function showMenu() {
   var y = document.querySelector('#mainMenu');
   y.classList.toggle("hide__nav");
 }
-
-// function showMenu(a) {
-//   let g = document.getElementById(a).style.display = "none";
-//   g.classList.toggle("nav__menulist");
-// }
