@@ -105,6 +105,19 @@
 }
 
 @media screen and (min-width: $tablet-landscape) {
+  .introduction__section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title__box {
+    //width: 123vw; //what is happening here????
+  }
+
+  .content__box--right-side {
+    width: 48vw;
+  }
+  
   .expect__box {
     flex-direction: row;
     justify-content: space-between;
