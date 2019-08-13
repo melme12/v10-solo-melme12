@@ -37,7 +37,7 @@
 
 @media screen and (min-width: $tablet-landscape) {
   .header {
-    padding: 20px 0;
+    padding: 20px 150px 20px 0;
   }
 
   .header__box {
@@ -52,10 +52,15 @@
     img {
       width: 38.55vw;
       margin-top: 30px;
+      margin-right: 110px;
     }
   }
 
   .header__right-side {
     width: calc(48vw + 150px);
+  }
+
+  .header__buttons {
+    flex-direction: row;
   }
 }

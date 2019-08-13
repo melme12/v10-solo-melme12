@@ -130,3 +130,17 @@
   text-decoration: none;
 }
 
+
+@media screen and (min-width: $tablet-landscape) {
+  .button--action {
+    margin-right: 40px;
+  }
+}
+
+@media screen and (min-width: $desktop-small) {
+  .button__link {
+    height: 47px;
+    width: 165px;
+  }
+}
+

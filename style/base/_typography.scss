@@ -169,3 +169,29 @@ body {
     
   }
 }
+
+@media screen and (min-width: $tablet-portrait) {
+  .header__title {
+    font-size: 3.7vw;
+  }
+
+  
+  
+  .section__title {
+    font-size: 3.4vw;
+  }
+
+  .logo--title {
+    font-size: 3.4vw;
+}
+}
+
+@media screen and (min-width: $tablet-landscape) {
+  .title__top {
+    font-size: 1.3vw;
+  }
+
+  .section__top {
+    font-size: 1.3vw;
+  }
+}

@@ -115,7 +115,7 @@
   }
 
   .content__box--right-side {
-    width: 48vw;
+    width: 42vw;
   }
   
   .expect__box {
@@ -124,10 +124,20 @@
   }
 }
 
+@media screen and (min-width: $desktop-small) {
+  .content__box--right-side {
+    width: 44vw;
+  }
+}
+
 @media screen and (min-width: $desktop-medium) {
   .left__side {
    // width: 590px;
     padding-right: 110px;
+  }
+
+  .content__box--right-side {
+    width: 46vw;
   }
 }
 
